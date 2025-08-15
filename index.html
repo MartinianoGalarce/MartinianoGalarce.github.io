@@ -54,11 +54,30 @@
 
         <section id="contact" class="container">
             <h2>Contacto</h2>
-            <p>¡Me encantaría conectar contigo! Puedes enviarme un correo a <a href="nanogalarce@gmail.com">nanogalarce@gmail.com</a> o encontrarme en:</p>
+            <p>Si te gustaría colaborar o tienes alguna pregunta, no dudes en contactarme. ¡Estaré encantado de contactarnos!</p>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+                <p id="form-status"></p>
+            </form>
+            
+            <p>También puedes encontrarme en:</p>
             <ul>
                 <li><a href="https://github.com/MartinianoGalarce" target="_blank">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/martiniano-galarce-5b0829249" target="_blank">LinkedIn</a></li>
-                </ul>
+            </ul>
         </section>
     </main>
 
