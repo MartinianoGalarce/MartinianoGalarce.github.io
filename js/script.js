@@ -16,7 +16,7 @@ const formStatus = document.getElementById('form-status');
 
 // URL del servidor Flask.
 // Esta URL solo funciona cuando el servidor Python está corriendo en tu computadora.
-const formEndpoint = "https://contacto-flask-api.onrender.com";
+const formEndpoint = "https://contacto-flask-api.onrender.com/contacto"; // Cambia esta URL si tu servidor está en otro lugar
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault(); // Evita que el formulario se envíe de la manera tradicional
